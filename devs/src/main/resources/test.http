@@ -1,0 +1,20 @@
+### GET /getall
+GET http://localhost:8080/api/programminglanguages/getall
+Accept: application/json
+
+### POST /add
+POST http://localhost:8080/api/programminglanguages/add
+Content-Type: application/json
+
+{"id": 4, "name": "C-+"}
+
+
+### DELETE /delete/4
+DELETE http://localhost:8080/api/programminglanguages/delete/4
+Accept: application/json
+
+### PUT /update/4
+PUT http://localhost:8080/api/programminglanguages/update/4
+Content-Type: application/json
+
+{"id": 4, "name": "C--"}
